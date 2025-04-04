@@ -17,8 +17,8 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/website-monitor-extension.git
-cd website-monitor-extension
+git clone https://github.com/Tejoooo/BettingAppExtension.git
+cd BettingAppExtension
 ```
 
 ### 2. Backend Setup
