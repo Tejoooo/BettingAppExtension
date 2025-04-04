@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Website Monitor",
+    "version": "1.0",
+    "permissions": ["tabs", "activeTab", "storage","geolocation"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "host_permissions": ["http://*/*", "https://*/*"]
+  }
+  
